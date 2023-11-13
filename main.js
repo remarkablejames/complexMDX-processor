@@ -38,4 +38,4 @@ fs.writeFile(outputPath, String(file), err => {
 })
 
 // Save the result to a file in the same directory
-await write({ path: OUTPUT_FILE, contents: file });
+// await write({ path: OUTPUT_FILE, contents: file });
