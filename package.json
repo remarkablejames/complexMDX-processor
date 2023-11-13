@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "rehype-katex": "^7.0.0",
+    "rehype-pretty-code": "^0.10.2",
     "rehype-stringify": "^10.0.0",
     "remark-gfm": "^4.0.0",
     "remark-math": "^6.0.0",

@@ -1,3 +1,7 @@
+
+// THIS PROGRAM EXTENDS THE FUNCTIONALITY OF THE MDX WITH KATEX AND REMARK - REHYPE PLUGINS
+// IT TAKES THE INPUT FROM THE INPUT.MD FILE AND OUTPUTS THE RESULT TO THE OUTPUT.TXT FILE
+
 import rehypeKatex from 'rehype-katex'
 import rehypeStringify from 'rehype-stringify'
 import remarkMath from 'remark-math'
@@ -6,6 +10,7 @@ import remarkRehype from 'remark-rehype'
 import {read, write} from 'to-vfile'
 import {unified} from 'unified'
 import remarkGfm from 'remark-gfm'
+import rehypePrettyCode from 'rehype-pretty-code';
 import fs from 'fs';
 import path from "path";
 import { fileURLToPath } from 'url';
@@ -20,11 +25,10 @@ const file = await unified()
     .use(remarkGfm)
     .use(remarkMath)
     .use(remarkRehype)
+    .use(rehypePrettyCode)
     .use(rehypeKatex)
     .use(rehypeStringify)
     .process(await read(INPUT_FILE))
-
-console.log(String(file));
 
 fs.writeFile(outputPath, String(file), err => {
     if (err) {

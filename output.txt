@@ -35,9 +35,8 @@ adipiscing tristique risus</p>
 </tbody>
 </table>
 <p><img src="https://images.unsplash.com/photo-1636466497217-26a8cbeaf0aa?auto=format&#x26;fit=crop&#x26;q=80&#x26;w=3774&#x26;ixlib=rb-4.0.3&#x26;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="E=mc^2" title="Enegy is equal to speed of light squared"></p>
-<pre><code class="language-javascript">function fancyAlert(arg) {
-  if(arg) {
-    $.facebox({div:'#foo'})
-  }
-}
-</code></pre>
+<div data-rehype-pretty-code-fragment=""><pre class="github-dark-dimmed" style="background-color: #22272e" tabindex="0" data-language="javascript" data-theme="default"><code data-language="javascript" data-theme="default" style="display: grid;"><span data-line=""><span style="color: #F47067">function</span><span style="color: #ADBAC7"> </span><span style="color: #DCBDFB">fancyAlert</span><span style="color: #ADBAC7">(</span><span style="color: #F69D50">arg</span><span style="color: #ADBAC7">) {</span></span>
+<span data-line=""><span style="color: #ADBAC7">  </span><span style="color: #F47067">if</span><span style="color: #ADBAC7">(arg) {</span></span>
+<span data-line=""><span style="color: #ADBAC7">    $.</span><span style="color: #DCBDFB">facebox</span><span style="color: #ADBAC7">({div:</span><span style="color: #96D0FF">'#foo'</span><span style="color: #ADBAC7">})</span></span>
+<span data-line=""><span style="color: #ADBAC7">  }</span></span>
+<span data-line=""><span style="color: #ADBAC7">}</span></span></code></pre></div>
